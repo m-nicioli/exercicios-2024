@@ -34,7 +34,7 @@ class Main {
     $row = 2;
       /* Loop através dos elementos encontrados */
       foreach ($trabalhos as $trabalho) {
-          /* Extrai os dados dos elementos filhos */
+      /* Extrai os dados dos elementos filhos */
        $titulo = $xpath->query(".//h4[@class='my-xs paper-title']", $trabalho)->item(0)->nodeValue;
           /* Consulta XPath para obter autores */
        $autores = $xpath->query(".//div[@class='authors']", $trabalho)->item(0)->nodeValue;
