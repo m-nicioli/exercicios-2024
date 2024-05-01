@@ -3,7 +3,7 @@
 namespace Chuva\Php\WebScrapping;
 
 use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
-// require_once __DIR__ . 'spout-3.3.0/src/Spout/Autoloader/autoload.php';
+
 
 /**
  * Runner for the Webscrapping exercise.
